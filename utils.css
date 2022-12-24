@@ -1,0 +1,47 @@
+.text-center {
+  text-align: center;
+}
+.bg-red {
+  background-color: red;
+}
+.mx-auto {
+  margin: 0px 41%;
+  text-align: center;
+}
+button.button {
+  margin: 2px;
+  width: 51px;
+  height: 47px;
+  /* padding: 20px; */
+  border: 2px solid;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 25px;
+}
+input.input {
+  margin: 9px 0;
+  padding: 12px 27px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.center {
+  align-items: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.calculator {
+  box-shadow: 10px 10px 10px 10px lightgrey;
+  border: 1px solid;
+  display: inline-block;
+  border-radius: 25px;
+  padding: 7px;
+
+  background: dimgrey;
+}
+button.button:hover {
+  border: none;
+  transition: 1s;
+  color: white;
+  background: black;
+}
